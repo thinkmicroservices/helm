@@ -1,0 +1,13 @@
+# Default values for thinkmicroservices.
+# This is a YAML-formatted file.
+ 
+application:
+  namespace: t16s
+  apiGatewayService:
+    port: 9443
+ 
+
+
+service:
+  type: ClusterIP
+  port: 80
